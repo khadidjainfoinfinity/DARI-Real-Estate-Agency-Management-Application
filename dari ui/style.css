@@ -1,0 +1,1249 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+
+body{
+    padding: 3vw;
+    background-color: #0A0A0A;
+    overflow-x: hidden;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+header .logo img{
+    width: auto;
+    height: 4vw;
+}
+
+header div.userbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 46%;
+    height: 100%;
+    column-gap: 2vw;
+}
+
+div.profile{
+    width: max-content;
+    padding: .5vw;
+    height: 3.5vw;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-radius: 2vw;
+    gap: 1vw;
+    transition: .3s ease-in-out;
+}
+div.profile:hover{
+    background: radial-gradient(circle, rgba(161,224,255,.6)0%, rgba(161,224,255,.4) 100%);
+}
+
+.profile img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
+
+.profile h4 {
+    font-size: 1.1vw;
+    color: #fff;
+    margin: 0 1vw 0;
+    font-weight: 500;
+}
+div.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: max-content;
+    column-gap: 1vw;
+}
+
+.icons input{
+    width: 16vw;
+    height: 2.4vw;
+    border: none;
+    border-bottom: .2vw solid #B7DCFF;
+    background: transparent;
+    outline: none;
+    font-size: 1.2vw;
+    color: #fff;
+}
+
+.icons input::placeholder{
+    color: #71737c;
+    transition: .4s ease-in-out;
+}
+
+.icons input:hover::placeholder{
+    color: transparent;
+}
+
+.icons input:active::placeholder{
+    color: transparent;
+}
+
+
+div.icons i {
+    width: 3.5vw;
+    height: 3.5vw;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.2vw;
+    transition: .3s ease-in-out;
+}
+
+div.icons i:hover{
+    background: radial-gradient(circle, rgba(161,224,255,.6)0%, rgba(161,224,255,.4) 100%);
+}
+
+section.main{
+    margin-top: 2vw;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+grid-template-columns: .8fr 3.5fr 1.5fr;
+grid-template-rows: 1fr;
+grid-column-gap: 20px;
+grid-row-gap: 0px;
+}
+
+
+div.menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding-top: 3vw;
+}
+a{
+    text-decoration: none;
+}
+
+.menu ul li {
+    padding: 1vw 2vw;
+    margin: 1.5vw 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 100px;
+    gap: 1vw;
+}
+
+.menu ul li.dash{
+    background: rgb(235,238,174);
+background: radial-gradient(circle, rgba(161,224,255,.6)0%, rgba(161,224,255,.4) 100%);
+    border-radius: 100px;
+}
+
+.menu ul li span{
+    font-size: 1.2vw;
+    color: white;
+}
+
+.menu ul li img{
+    width: 1.8vw;
+}
+
+
+
+.menu ul li:hover{
+    background: rgb(235,238,174);
+    background: radial-gradient(circle, rgba(161,224,255,.6)0%, rgba(161,224,255,.4) 100%);
+    transition: .4s ease-in-out;
+}
+
+
+div.seals {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+div.seals .thebigadd{
+    padding: 1vw;
+    width: 96%;
+    background: linear-gradient(330deg, rgba(29, 29, 29, 0.3) 0%, rgba(255,255,255,.2) 100%); 
+    background: #B7DCFF;
+    border-radius: 3vw;
+    margin: 4vw 0 2vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr 2.6fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        overflow: hidden;
+        position: relative;
+}
+
+.thebigadd img:hover{
+    transform: scale(1.2);
+}
+.thebigadd::before{
+    content: "  BEST DEAL ! -- BEST DEAL ! --";
+    position: absolute;
+    top: -.7vw;
+    right: -3.6vw;
+    width: 30%;
+    height: 15%;
+    background: #fffede;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: .9vw;
+}
+
+div.seals .thebigadd .adcontent{
+    color: #000;
+    padding: 1vw;
+}
+
+div.seals .thebigadd .adcontent h2{
+    font-size: 1.7vw;
+    margin-top: 1.2vw;
+}
+
+div.seals .thebigadd .adcontent  p{
+    font-size: 1.1vw;
+    margin-top: 1vw;
+}
+
+.previwe{
+    position: relative;
+}
+.previwe img{
+    width: 95%;
+    height: auto;
+    filter: drop-shadow(0 0 1vw #d6d5b756);
+    transition: .5s ease-in-out;
+}
+
+.previwe .btnbox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+    z-index: 20;
+    position: absolute;
+    bottom: 2vw;
+    right: 2vw;
+    gap: 1.5vw;
+}
+
+
+.previwe .btnbox a {
+    padding: .6vw 1.3vw;
+    border-radius: 3vw;
+    position: relative;
+    color: #474747;
+    text-decoration: none;
+    z-index: 10;
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.7px);
+-webkit-backdrop-filter: blur(7.7px);
+border: 1px solid rgba(255, 255, 255, 0.993);
+font-weight: 600;
+transition: .4s ease-in-out;
+font-size: 1vw;
+}
+
+.previwe .btnbox a:hover{
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    color: #000;
+}
+
+
+div.seals .sealscontent h3{
+    font-weight: 600;
+    font-size: 1.5vw;
+    color: #fff;
+}
+div.seals .sealscontent h4{
+    font-weight: 500;
+    font-size: 1vw;
+    color: #ffffffb7;
+    padding-bottom: 2.5vw;
+}
+
+div.seals .sealscontent {
+   padding-bottom: 2vw;
+}
+
+div.cardsbox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 100%;
+    gap: 2vw;
+}
+
+
+
+
+
+:root {
+    --color-primary-light: #B7DCFF;
+    --color-white: #181818;
+    --color-black: #cfcfcf; 
+}
+
+
+
+.cardsbox .game {
+    position: relative;
+    width: 280px;
+    height: auto;
+    cursor: pointer;
+}
+
+.cardsbox .front {
+    width: 280px;
+    height: 350px;
+    transition: all .3s ease-in-out;
+
+    
+}
+
+.cardsbox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cardsbox .back {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0; 
+    color: var(--color-black);
+}
+
+.cardsbox .background {
+    background: var(--color-white);
+    position: absolute;
+    /* top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    inset: 0;
+    z-index: -1;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.cardsbox .game:hover .background {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+
+.cardsbox .game:hover .front {
+    transform: translateY(-35%) scale(.7, .5);
+}
+
+.cardsbox .game:hover .back {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+.cardsbox .content {
+    padding: 10px 30px;
+}
+
+.cardsbox h3 {
+    font-size: 16px;
+    text-align: center;
+    color: var(--color-primary-light);
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.cardsbox .content > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cardsbox .button {
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.cardsbox .btn {
+    display: block;
+    font-size: 15px;
+    background: var(--color-primary-light);
+    color: var(--color-white);
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 12px 0;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    transition: all .2s;
+}
+
+
+.fixedmenu .new {
+    width: 100%;
+    height: 20vw; 
+    margin: 4vw 0;
+    border-radius: 3vw;
+    position: relative;
+background: linear-gradient(330deg, rgba(29, 29, 29, 0.3) 0%, rgba(255,255,255,.2) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: column nowrap;
+padding: 1.5vw;
+gap: 1.6vw;
+}
+
+.fixedmenu .new .grids{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row nowrap;
+gap: 1vw;
+}
+
+
+.new .grids .grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    background: #c1e1ff;
+    padding: .3vw;
+    border-radius: 1vw;
+}
+
+.grid h2{
+    font-size: 1vw;
+    margin-left: .3vw;
+    padding: .2vw;
+}
+
+.grid span{
+    font-size: .8vw;
+    color: #474747;
+    font-weight: 500;
+}
+
+.grid img{
+    width: 2.4vw;
+    border-radius: 1vw;
+}
+
+.grid2{
+    background: #c1e1ff;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+
+.imgp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: .3vw;
+}
+.imgp img{
+    width: 2.4vw;
+    border: .2vw solid #fff;
+    border-radius: 50%;
+}
+
+
+.grid2 h2{
+    font-size: 1vw;
+    margin-left: .3vw;
+    padding: .2vw;
+}
+
+.grid2 span{
+    font-size: .8vw;
+    color: #474747;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.managers{
+    width: 100%;
+    margin: 2vw 0;
+    border-radius: 3vw;
+    position: relative;
+background: linear-gradient(330deg, rgba(29, 29, 29, 0.3) 0%, rgba(255,255,255,.1) 100%);
+padding: 1vw 1vw 2vw;
+}
+
+.managers .active h2{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    margin: 2vw;
+    font-size: 1.4vw;
+
+}
+
+.managers .active{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.active .profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 1vw;
+    padding: 1vw;
+}
+
+.active .profiles img{
+    width: 2.8vw;
+    height: auto;
+    border: 1px dashed #B7DCFF;
+    border-radius: 50%;
+}
+
+.managerscards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 1vw;
+    padding: 1vw;
+}
+
+.managerscards .item{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+    gap: 1vw;
+    color: #fff;
+    position: relative;
+}
+
+.item .time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.time h4{
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #FFFCC0;
+}
+
+.time span{
+    font-size: smaller;
+    text-transform: uppercase;
+}
+
+.managerscards .item .card{
+    padding: 1vw ;
+    background: #B7DCFF;
+    color: #0A0A0A;
+    border-radius: 1vw;
+    min-width: 80%;
+}
+
+.managerscards .item .card h2{
+    font-size: 1.1vw;
+    font-weight: 500;
+    margin: .4vw 0;
+}
+
+.managerscards .item .card p{
+    font-size: .8vw;
+}
+
+.managerscards .item img{
+    position: absolute;
+    right: 1%;
+    top: 3%;
+    width: 2.5vw;
+    height: auto;
+    border: 1px dashed #000;
+    border-radius: 50%;
+}
+
+/* make it responsive */
+
+li.myprofile{
+    visibility: hidden;
+}
+
+.fa-bars{
+    visibility: hidden;
+}
+
+.cardsbox .like{
+background: #b4f0ff59;
+outline: none;
+border: none;
+padding: 1vw 2vw;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 1vw;
+margin-left: 50%;
+transform: translateX(-50%);
+}
+
+.addcard button{
+    background: #B7DCFF;
+}
+
+.cardsbox .like i{
+    color: #ffffff;
+    font-size: 1.2vw;
+    }
+   
+    .cardsbox .like:active{
+        
+background: #b4f0ffcb;
+        }
+       
+      
+        .cardsbox .like:focus{
+            background: #b4f0ffcb;
+                    }
+
+                    div.addcard button{
+                        padding: 1vw 2vw;
+                        margin: 3vw;
+                        font-size: 1.2vw;
+                        background: #B7DCFF;
+                        border-radius: 2vw;
+                        font-weight: 600;
+                       }    
+                    
+
+@media (max-width: 1600px) {
+section.main{
+    margin-top: 2vw;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+grid-template-columns: 1fr 3fr 1.3fr;
+grid-template-rows: 1fr;
+grid-column-gap: 20px;
+grid-row-gap: 0px;
+}
+}
+
+@media (max-width: 1460px) {
+   div.profile{
+    display: none ;
+   }
+
+   header div.userbox{
+    width: 30%;
+}
+
+
+li.myprofile{
+    visibility: visible;
+}
+
+
+}
+
+@media (max-width: 1340px) {
+
+    .fa-bars{
+        visibility: visible;
+        
+transition: .3s ease-in-out;
+    }
+    
+
+
+    section.main{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-flow: row nowrap;
+        gap: 1vw;
+        position: relative;
+    }
+    
+    
+    div.menu{
+        position: absolute;
+        right: 1vw;
+        padding: 2vw;
+        background: rgba(19, 19, 19, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.7px);
+-webkit-backdrop-filter: blur(7.7px);
+border: .2vw solid rgba(255, 255, 255, 0.479);
+z-index: 1000;
+border-radius: 2vw;
+transition: .3s ease-in-out;
+    }
+    
+    .menu ul  {
+       transform: scale(1.1);
+    }
+ 
+    header .logo{
+        transform: scale(1.1);
+    }
+    
+ header .icons{
+    transform: scale(1.2);
+ }
+
+ 
+header div.userbox{
+    width: 36%;
+}
+
+
+
+.thebigadd::before{
+    content: "  BEST DEAL ! -- BEST DEAL ! --";
+    transform: rotate(45deg) scale(1.3);
+}
+
+div.seals .thebigadd .adcontent{
+    transform: scale(1.2);
+    padding: 2.5vw;
+}
+
+div.seals .thebigadd .adcontent h2{
+    font-size: 2vw;
+}
+
+.previwe .btnbox a {
+font-size: 1.3vw;
+}
+
+
+
+div.seals .sealscontent h3{
+    font-size: 2.5vw;
+}
+div.seals .sealscontent h4{
+    font-size: 1.6vw;
+ 
+}
+
+div.cardsbox{
+    gap: 1.4vw;
+}
+
+.cardsbox .game {
+    width: 260px;
+}
+
+.cardsbox .front {
+    width: 260px;
+    height: 340px;
+}
+
+
+.fixedmenu .new {
+    width: 100%;
+    height: auto; 
+padding: 2.4vw 1vw ;
+}
+
+.fixedmenu .new .grids{
+padding: .6vw;
+}
+
+
+.grid h2{
+    font-size: 1.2vw;
+}
+
+.grid span{
+    font-size: 1vw;
+}
+
+.grid img{
+    width: 3vw;
+}
+
+.imgp img{
+    width: 2.8vw;
+}
+
+
+.grid2 h2{
+    font-size: 1.2vw;
+}
+
+.grid2 span{
+    font-size: 1vw;
+}
+
+
+.managers .active h2{
+    font-size: 1.6vw;
+
+}
+
+.active .profiles img{
+    width: 3.6vw;
+}
+
+.managerscards{
+    gap: 2vw;
+    padding: 1vw;
+}
+
+.managerscards .item{
+    gap: 1.9vw;
+}
+
+.time h4{
+    font-size: 1.5vw;
+}
+
+.managerscards .item .card h2{
+    font-size: 1.5vw;
+}
+
+.managerscards .item .card p{
+    font-size: 1vw;
+}
+
+.managerscards .item img{
+    right: 1%;
+    top: 10%;
+    width: 3vw;
+}
+  }
+
+@media (max-width: 880px) {
+
+      
+    div.menu{
+        padding: 4vw;
+    }
+
+
+
+    .menu ul  {
+       transform: scale(1.3);
+
+    }
+ 
+    header .logo{
+        transform: scale(1.3);
+    }
+    
+ header .icons{
+    transform: scale(1.3);
+ }
+
+.fixedmenu .new {
+    width: 100%;
+    height: auto; 
+padding: 2vw .7vw ;
+}
+
+.fixedmenu .new .grids{
+padding: .6vw;
+}
+
+
+.grid h2{
+    font-size: 1.4vw;
+}
+
+.grid span{
+    font-size: 1vw;
+}
+
+  }
+
+
+  @media (max-width: 870px) {
+
+    .fa-bars{
+        visibility: visible;
+        
+transition: .3s ease-in-out;
+    }
+    
+
+
+    section.main{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-flow: row wrap;
+        gap: 1vw;
+        position: relative;
+    }
+
+
+    .fixedmenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+        width: 90%;
+    }
+    
+
+.thebigadd::before{
+    content: "  BEST DEAL ! -- BEST DEAL ! --";
+    transform: rotate(45deg) scale(1.3);
+    font-size: 1.7vw;
+}
+
+div.seals .thebigadd .adcontent{
+    padding: 3vw;
+}
+
+div.seals .thebigadd .adcontent h2{
+    font-size: 3vw;
+}
+
+div.seals .thebigadd .adcontent p{
+    font-size: 1.8vw;
+}
+
+.previwe .btnbox a {
+font-size: 1.8vw;
+}
+
+div.seals .sealscontent h3{
+    font-size: 3vw;
+    margin-top: 2vw;
+}
+div.seals .sealscontent h4{
+    font-size: 2vw;
+    margin-bottom: 2vw;
+ 
+}
+
+div.cardsbox{
+    width: 94vw;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1vw;
+}
+
+.fixedmenu .new {
+    flex-flow: row wrap;
+    width: 100%;
+    height: max-content; 
+padding: 2vw 1vw ;
+gap: .5vw;
+}
+
+.fixedmenu .new .grid,
+.grid2{
+padding: 1vw;
+min-height: 10vw;
+gap: 1vw;
+}
+
+.grid{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.grid h2{
+    font-size: 1.4vw;
+}
+
+.grid span{
+    font-size: 1.3vw;
+}
+
+.grid img{
+    width: 4.5vw;
+}
+
+.imgp img{
+    margin-top: .5vw;
+    width: 3.5vw;
+}
+
+
+.grid2 h2{
+    font-size: 1.5vw;
+}
+
+.grid2 span{
+    font-size: 1.1vw;
+
+}
+
+
+.managers .active h2{
+    font-size: 2.5vw;
+
+}
+
+.active .profiles img{
+    width: 4.5vw;
+}
+
+
+
+.managerscards .item{
+    gap: 2.4vw;
+}
+
+.time h4{
+    font-size: 2.4vw;
+}
+
+.managerscards .item .card h2{
+    font-size: 2.1vw;
+    font-weight: 600;
+}
+
+.managerscards .item .card p{
+    font-size: 1.8vw;
+}
+
+.managerscards .item img{
+    right: 10%;
+    top: 10%;
+    width: 5vw;
+}
+  }
+
+
+  @media (max-width: 780px) {
+    
+header .logo img{
+    margin: 1vw;
+    height: 6vw;
+}
+
+header div.userbox{
+    width: 50%;
+}
+
+
+
+.icons input{
+    width: 20vw;
+    height: 2.4vw;
+    font-size: 2vw;
+}
+
+div.icons i {
+    width: 4.5vw;
+    height: 4.5vw;
+    font-size: 2vw;
+    transition: .3s ease-in-out;
+}
+
+
+div.menu{
+    padding: 16vw;
+}
+
+
+
+.menu ul  {
+   transform: scale(1.8);
+
+}
+
+  }
+
+
+
+  
+  @media (max-width: 730px) {
+    
+.fixedmenu .new { 
+padding: 2vw ;
+width: fit-content;
+}
+
+.grid h2{
+    font-size: 2vw;
+}
+
+.grid span{
+    font-size: 1.9vw;
+}
+
+.grid img{
+    width: 5vw;
+}
+
+.imgp img{
+    margin-top: .5vw;
+    width: 5vw;
+}
+
+
+.grid2 h2{
+    font-size: 2vw;
+}
+
+.grid2 span{
+    font-size: 1.9vw;
+
+}
+
+
+
+.managers .active h2{
+    font-size: 3vw;
+
+}
+
+.active .profiles img{
+    width: 6vw;
+}
+
+.time h4{
+    font-size: 3vw;
+}
+
+
+.managerscards .item .card h2{
+    font-size: 3vw;
+    font-weight: 600;
+    margin-left: 1vw;
+}
+
+.managerscards .item .card p{
+    font-size: 2.2vw;
+    margin-left: 1vw;
+}
+
+.managerscards .item img{
+    right: 10%;
+    top: 10%;
+    width: 7vw;
+}
+  
+    
+      }
+    
+      @media (max-width: 600px) {
+       
+div.seals .sealscontent h3{
+
+    font-size: 5vw;
+}
+div.seals .sealscontent h4{
+    font-size: 3vw;
+}
+
+
+div.seals .thebigadd .adcontent h2{
+    font-size: 4vw;
+    margin-top: 2vw;
+}
+
+div.seals .thebigadd .adcontent  p{
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+
+
+.previwe .btnbox{
+ width: 120%;
+}
+
+
+.previwe .btnbox a {
+font-size: 2.6vw;
+padding: 1vw 2vw;
+}
+
+   }
+            
+         
+   @media (max-width: 560px) {
+       
+
+    div.seals .thebigadd{
+    min-height: 60vw;
+    }
+    
+
+    .previwe img{
+        width: 95%;
+       margin: 20% 0;
+       transform: scale(1.2);
+    }
+    
+    .previwe img:hover{
+        transform: scale(1.5);
+    }
+
+
+    
+.thebigadd::before{
+    font-size: 2vw;
+    width: max-content;
+    margin-top: -2vw;
+}
+
+
+       }
+                
+              

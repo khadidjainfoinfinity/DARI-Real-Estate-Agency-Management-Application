@@ -1,0 +1,220 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="clients.css">
+    <title>Dari | poo project</title>
+</head>
+<body>
+    <header>
+        <div class="logo"> <img src="imgs/logos.svg" alt=""></div>
+        <div class="userbox">
+            <div class="icons">
+                <input type="text" placeholder="search">
+                <i class="fa-solid fa-magnifying-glass" style="color: #f0f5ff;"></i>
+                <i class="fa-solid fa-bell" style="color: #f0f5ff;"></i>
+                
+            </div>
+            <div class="profile">
+                <img src="Ellipse 25.png" alt="hhh u cant see the image">
+                <h4>lorem ipsum</h4>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="main">
+        <div class="menu " >
+            <ul>
+                <li class="dash"> <img src="radix-icons_dashboard.svg" alt=""> <a href="index.html"><span>dashboard</span></a> </li>
+                <li class="seals"> <img src="carbon_book.svg" alt=""> <a href="seals.html"><span>seals</span></a>  </li>
+                <li class="clients"> <img src="fluent_people-16-regular.svg" alt=""> <a href="clients.html"><span>clients</span></a>  </li>
+                <li class="messages"> <img src="ant-design_message-outlined.svg" alt=""> <a href="messages.html"><span>messages</span></a>  </li>
+                <li class="myprofile"> <img src="imgs/User.png" alt=""> <span>profile</span> </li>
+            </ul>
+        </div>
+
+        <div class="seals">
+            
+           <main class="table" id="customers_table">
+    <section class="table__header">
+        <h1>Customer's info</h1>
+        <div class="input-group">
+            <input type="search" placeholder="Search Data...">
+            <img src="imgs/Search.png" alt="">
+        </div>
+        <div class="export__file">
+            <label for="export-file" class="export__file-btn" title="Export File"></label>
+            <input type="checkbox" id="export-file">
+            <div class="export__file-options">
+                <label>Export As &nbsp; &#10140;</label>
+                <label for="export-file" id="toPDF">PDF <img src="imgs/pdf.png" alt=""></label>
+                <label for="export-file" id="toJSON">JSON <img src="imgs/json.png" alt=""></label>
+                <label for="export-file" id="toCSV">CSV <img src="imgs/csv.png" alt=""></label>
+                <label for="export-file" id="toEXCEL">EXCEL <img src="imgs/excel.png" alt=""></label>
+            </div>
+        </div>
+    </section>
+    <section class="table__body">
+        <table>
+            <thead>
+                <tr>
+                    <th> Id <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Customer <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Location <span class="icon-arrow">&UpArrow;</span></th>
+                    <th>  Date <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> role <span class="icon-arrow">&UpArrow;</span></th>
+                    <th> Amount <span class="icon-arrow">&UpArrow;</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 1 </td>
+                    <td> <img src="imgs/Zinzu Chan Lee.jpg" alt="">khadidja cheurfi</td>
+                    <td> Seoul </td>
+                    <td> 30 Dec, 2024 </td>
+                    <td>
+                        <p class="status delivered">buyers</p>
+                    </td>
+                    <td> <strong> $44128.90 </strong></td>
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td><img src="imgs/Jeet Saru.jpg" alt="">  hamek nouh </td>
+                    <td> algeria </td>
+                    <td> 27 Aug, 2023 </td>
+                    <td>
+                        <p class="status cancelled">tenants</p>
+                    </td>
+                    <td> <strong>$522350.50</strong> </td>
+                </tr>
+                <tr>
+                    <td> 3</td>
+                    <td><img src="imgs/Sonal Gharti.jpg" alt=""> khadidja cheurfi </td>
+                    <td> Tokyo </td>
+                    <td> 14 Mar, 2024 </td>
+                    <td>
+                        <p class="status shipped">landlords</p>
+                    </td>
+                    <td> <strong>$24510.40</strong> </td>
+                </tr>
+                <tr>
+                    <td> 4</td>
+                    <td><img src="imgs/Alson GC.jpg" alt=""> berbiche aymen </td>
+                    <td> New York </td>
+                    <td> 25 May, 2024 </td>
+                    <td>
+                        <p class="status delivered">buyers</p>
+                    </td>
+                    <td> <strong>$32149.70</strong> </td>
+                </tr>
+                <tr>
+                    <td> 5</td>
+                    <td><img src="imgs/Sarita Limbu.jpg" alt=""> berbiche aymen </td>
+                    <td> Paris </td>
+                    <td> 23 Apr, 2024 </td>
+                    <td>
+                        <p class="status pending">sellers</p>
+                    </td>
+                    <td> <strong>$30959.99</strong> </td>
+                </tr>
+                <tr>
+                    <td> 6</td>
+                    <td><img src="imgs/Alex Gonley.jpg" alt="">  hamek nouh </td>
+                    <td> London </td>
+                    <td> 23 Apr, 2024 </td>
+                    <td>
+                        <p class="status cancelled">tenants</p>
+                    </td>
+                    <td> <strong>$31299.99</strong> </td>
+                </tr>
+                <tr>
+                    <td> 7</td>
+                    <td><img src="imgs/Alson GC.jpg" alt="">  hamek nouh </td>
+                    <td> New York </td>
+                    <td> 20 May, 2024 </td>
+                    <td>
+                        <p class="status delivered">buyers</p>
+                    </td>
+                    <td> <strong>$37799.99</strong> </td>
+                </tr>
+                <tr>
+                    <td> 8</td>
+                    <td><img src="imgs/Sarita Limbu.jpg" alt=""> boukir billal </td>
+                    <td> algeria </td>
+                    <td> 30 Feb, 2024 </td>
+                    <td>
+                        <p class="status pending">sellers</p>
+                    </td>
+                    <td> <strong>$14999.70</strong> </td>
+                </tr>
+                <tr>
+                    <td> 9</td>
+                    <td><img src="imgs/Alex Gonley.jpg" alt=""> boukir billal </td>
+                    <td> Paris </td>
+                    <td> 2 Dec, 2023 </td>
+                    <td>
+                        <p class="status shipped">landlords</p>
+                    </td>
+                    <td> <strong>$45249.99</strong> </td>
+                </tr>
+                <tr>
+                    <td> 9</td>
+                    <td><img src="imgs/Alex Gonley.jpg" alt="">  berbiche aymen </td>
+                    <td> algeria </td>
+                    <td> 22 Dec, 2023 </td>
+                    <td>
+                        <p class="status cancelled">tenants</p>
+                    </td>
+                    <td> <strong>$24569.99</strong> </td>
+                </tr>
+                <tr>
+                    <td> 9</td>
+                    <td><img src="imgs/Alex Gonley.jpg" alt="">  hamek nouh</td>
+                    <td> Paris </td>
+                    <td> 22 may, 2024 </td>
+                    <td>
+                        <p class="status cancelled">tenants</p>
+                    </td>
+                    <td> <strong>$20049.99</strong> </td>
+                </tr>
+                <tr>
+                    <td> 9</td>
+                    <td><img src="imgs/Alex Gonley.jpg" alt=""> khadidja cheurfi </td>
+                    <td> New York </td>
+                    <td> 22 Dec, 2023 </td>
+                    <td>
+                        <p class="status cancelled">tenants</p>
+                    </td>
+                    <td> <strong>$24900.99</strong> </td>
+                </tr>
+                <tr>
+                    <td> 9</td>
+                    <td><img src="imgs/Alex Gonley.jpg" alt=""> khadidja cheurfi </td>
+                    <td> Paris </td>
+                    <td> 22 june, 2023 </td>
+                    <td>
+                        <p class="status shipped">landlords</p>
+                    </td>
+                    <td> <strong>$24900.99</strong> </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+        </div>
+        
+    </section>
+    <footer style=" padding: 2vw; text-align: center;">
+        <h3 style="font-size: 1.1rem; color: #ffffff9d; font-weight: 400;">Designed & developed by <a href="https://github.com/khadidjainfoinfinity/" style="text-decoration: none; color: rgb(195, 246, 255); font-weight: 500;">InfoInfinity</a> | poo Project G-27</h3>
+    </footer>
+    <script src="clients.js"></script>
+    
+   
+</body>
+</html>
