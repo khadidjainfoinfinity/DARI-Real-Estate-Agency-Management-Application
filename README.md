@@ -5,8 +5,19 @@ Bienvenue dans ce rapport où nous allons vous guider au fur à mesure pour vous
 ## interface de l'application Dari :
 Le design comporte 5 écrans : page d'accueil (tableau de bord), page des ventes, page des messages, page des clients, et une page pour représenter une maison individuelle. Aucun framework n'est utilisé pour le frontend (frontend en pur JavaScript) et pour les bibliothèques, j'ai utilisé tilt.js pour les effets d'inclinaison et chart.js pour créer les graphiques.
 
+##### not responsive
 
 [Watch the video on Google Drive](https://drive.google.com/file/d/10a-DwkhJ0ZBP6xJN94rCpp3FLqOuSS-9/view?usp=sharing)
+
+<img src="https://github.com/khadidjainfoinfinity/DARI-Real-Estate-Agency-Management-Application/blob/main/home.png?raw=true" alt="Project Screenshot" width="300"/>
+
+<img src="https://github.com/khadidjainfoinfinity/DARI-Real-Estate-Agency-Management-Application/blob/main/house.png?raw=true" alt="Project Screenshot" width="300"/>
+
+<img src="https://github.com/khadidjainfoinfinity/DARI-Real-Estate-Agency-Management-Application/blob/main/charts.png?raw=true" alt="Project Screenshot" width="300"/>
+
+<img src="https://github.com/khadidjainfoinfinity/DARI-Real-Estate-Agency-Management-Application/blob/main/clients.png?raw=true" alt="Project Screenshot" width="300"/>
+
+<img src="https://github.com/khadidjainfoinfinity/DARI-Real-Estate-Agency-Management-Application/blob/main/messages.png?raw=true" alt="Project Screenshot" width="300"/>
 
 LES CLASSES EN JAVA
 public class BienImmobilier
