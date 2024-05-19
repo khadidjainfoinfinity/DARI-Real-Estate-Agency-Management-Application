@@ -3,7 +3,10 @@
 Bienvenue dans ce rapport où nous allons vous guider au fur à mesure pour vous expliquer en toute clarté le fonctionnement de notre projet. Tout d'abord une application de telle taille a besoin d'une belle interface, et c'est le premier point que nous allons aborder plus tard. Ensuite nous avons également utilisé quelques outils supplémentaires comme JetBrainTools comme IDE principale qui fonctionne très bien avec le framework SpringBoot afin de pouvoir connecter le back-end et le front-end, en plus de cela, ça nous facilite la gestion de la base de données. Et bien sûr par dessus cela nous avons les classes en java qui représente l'engrenage de notre application.
 
 ## interface de l'application Dari :
+Le design comporte 5 écrans : page d'accueil (tableau de bord), page des ventes, page des messages, page des clients, et une page pour représenter une maison individuelle. Aucun framework n'est utilisé pour le frontend (frontend en pur JavaScript) et pour les bibliothèques, j'ai utilisé tilt.js pour les effets d'inclinaison et chart.js pour créer les graphiques.
 
+
+[Watch the video on Google Drive](https://drive.google.com/file/d/10a-DwkhJ0ZBP6xJN94rCpp3FLqOuSS-9/view?usp=sharing)
 
 LES CLASSES EN JAVA
 public class BienImmobilier
