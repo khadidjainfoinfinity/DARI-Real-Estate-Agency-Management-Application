@@ -5,6 +5,7 @@ Bienvenue dans ce rapport où nous allons vous guider au fur à mesure pour vous
 ## interface de l'application Dari :
 Le design comporte 5 écrans : page d'accueil (tableau de bord), page des ventes, page des messages, page des clients, et une page pour représenter une maison individuelle. Aucun framework n'est utilisé pour le frontend (frontend en pur JavaScript) et pour les bibliothèques, j'ai utilisé tilt.js pour les effets d'inclinaison et chart.js pour créer les graphiques.
 
+Nous n'avons pas trouvé le temps de connecter le front-end avec le back-end en utilisant Spring Boot, mais cela sera fait le jour de la présentation.
 ##### not responsive
 
 [Watch the video on Google Drive](https://drive.google.com/file/d/10a-DwkhJ0ZBP6xJN94rCpp3FLqOuSS-9/view?usp=sharing)
